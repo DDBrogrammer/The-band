@@ -1,0 +1,88 @@
+/*Reset css*/
+*{
+padding:0;
+margin:0;
+box-sizing: border-box;
+}
+html{
+    font-family:Helvetica,Arial,sans-serif ;
+}
+/*
+1-vị trí 
+2-kích thước(width,heigh)
+3-màu săc
+4-kiểu dáng(kiểu chữ, hình,...)
+
+*/
+/*
+1-từ ngoài vào trong
+2-từ trên xuống dưới
+3-tổng quan đến chi tiết 
+*/
+#main {
+
+
+}
+#header{
+height:46px;
+background-color:black ;
+
+}
+#nav >li{
+    display:inline-block;
+}
+#nav li {
+    position:relative;
+
+}
+
+#nav li a{
+  
+   text-decoration: none;
+   line-height:46px ;
+   padding: 0 24px ;
+   display:block;
+
+}
+#nav .subnav li:hover a,
+#nav> li:hover> a{
+    color: white;
+    color: black;
+    background-color: #ccc;
+  }
+#nav > li > a{
+    color: white;
+    text-transform: uppercase;
+}
+#nav>li:hover >.subnav{
+    display: block;
+    position:absolute;
+     background-color:white ;
+     list-style-type: none;
+     box-shadow:0 0 10px black ;
+}
+#nav .subnav{
+     display:none;
+     position:absolute;
+     min-width:160px;
+     top:100%;
+     left:0;
+}
+#nav .subnav a{
+    color: black;
+    padding:0 12px;
+    line-height:38px;
+}
+
+#slider{
+
+
+}
+#content{
+
+
+}
+#footer{
+
+
+}
